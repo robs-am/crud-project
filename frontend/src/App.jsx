@@ -1,8 +1,11 @@
 import Global from "./styles/global";
 import styled from "styled-components";
 
+
+
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
 
 const Container = styled.div`
 width: 100%;
@@ -20,11 +23,11 @@ function App() {
   return (
     <>
     <Container>
-
+      
     </Container>
       <Global />
       <ToastContainer autoClose={3000} position={toast.POSITION.BOTTON_RIGHT} />
-      <h1>alow</h1>
+      
     
     </>
   );
