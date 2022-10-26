@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Global />
-      <ToastContainer autoClose={3000} position={toastContainer.POSITION.BOTTON_RIGHT}
+      <ToastContainer autoClose={3000} position={toastContainer.POSITION.BOTTON_RIGHT}/>
       <h1>alow</h1>
     </div>
   );
