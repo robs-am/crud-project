@@ -1,15 +1,17 @@
-import { useState } from 'react'
+import Global from "./styles/global";
+import styled from "styled-components"; 
 
-import './App.css'
+import {toast, toastContainer} from "react-toastify";
+import "react-toastify/dist/ReactToastify.css"
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-      <h1>Alow</h1>
+      <Global />
+      <h1>alow</h1>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
