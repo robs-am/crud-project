@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useRef} from "react";
 import styled from "styled-components";
 
 const FormContainer = styled.form`
@@ -13,10 +13,12 @@ const FormContainer = styled.form`
 `;
 
 const Form = () => {
+    const ref = useRef();
+    
   return (
     <div>
       <FormContainer>
-        
+
       </FormContainer>
     </div>
   );
