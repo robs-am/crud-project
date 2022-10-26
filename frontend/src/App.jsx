@@ -1,17 +1,27 @@
 import Global from "./styles/global";
-import styled from "styled-components"; 
+import styled from "styled-components";
 
-import {toast, ToastContainer, toastContainer} from "react-toastify";
-import "react-toastify/dist/ReactToastify.css"
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
+const Container = styled.div`
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+`;
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <Container></Container>
       <Global />
-      <ToastContainer autoClose={3000} position={toastContainer.POSITION.BOTTON_RIGHT}/>
+      <ToastContainer autoClose={3000} position={toast.POSITION.BOTTON_RIGHT} />
       <h1>alow</h1>
-    </div>
+    </>
   );
 }
 

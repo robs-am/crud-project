@@ -13,9 +13,12 @@ body {
     display: flex;
     justify-content: "center";
     background-color:"#f9f9";
-    color:"#ccc";
+    color:"#161616";
+    
 
 }
+
+
 
 `;
 
