@@ -1,5 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+//react-icons//
+import {FaTrash, FaEdit} from "react-icons";
+import {toast} from "react-toastify"
 
 const Table = styled.table`
 width: 100%;
@@ -14,7 +17,8 @@ word-break: break-all;
 
 const Grid = () => {
   return (
-    <div></div>
+    <Table>
+    </Table>
   )
 }
 
