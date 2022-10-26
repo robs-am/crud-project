@@ -27,7 +27,10 @@ const Form = ({onEdit}) => {
   return (
     <div>
       <FormContainer>
-
+        <InputArea>
+            <Label>Nome</Label>
+            <Input name="nome" />
+        </InputArea>
       </FormContainer>
     </div>
   );
