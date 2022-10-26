@@ -14,6 +14,8 @@ align-items: center;
 gap: 10px;
 `;
 
+const Title = styled.h2 ``;
+
 function App() {
   return (
     <>
