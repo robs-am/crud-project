@@ -40,6 +40,10 @@ function App() {
     }
   };
 
+  useEffect(() => {
+    getUsers();
+  }, [setUsers]);
+
   return (
     <>
     <Container>
