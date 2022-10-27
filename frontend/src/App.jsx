@@ -48,7 +48,7 @@ function App() {
     <>
     <Container>
       <Form />
-      <Grid />
+      <Grid users={users} />
     </Container>
       <Global />
       <ToastContainer autoClose={3000} position={toast.POSITION.BOTTOM_RIGHT} />
